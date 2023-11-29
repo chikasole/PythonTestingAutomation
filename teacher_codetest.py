@@ -1,6 +1,7 @@
 import unittest
 import teachercode
 
+
 class TestCountMethods(unittest.TestCase):
 
     def test_add(self):
@@ -12,6 +13,7 @@ class TestCountMethods(unittest.TestCase):
 
     def test_power(self):
         self.assertEqual(teachercode.power(2, 8), 256)
+
 
 if __name__ == '__main__':
     unittest.main()
